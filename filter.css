@@ -1,0 +1,18 @@
+body{
+    background-color: rgb(243, 227, 227);
+}
+img{
+    /* filter: grayscale(100%); */
+    /* filter: blur(10px); este borronea la imagen */
+    filter: hue-rotate(180deg);
+    transition: filter 2s;
+    
+}
+iframe{
+    filter: hue-rotate(180deg);
+}
+img:hover{
+    /* grayscale(0% es imagen original, 
+    100% es escala de grises) */
+    filter: grayscale(50%);
+}
